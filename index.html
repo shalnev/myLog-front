@@ -4,11 +4,13 @@
     <meta charset="utf-8">
     <title>Форма</title>
      <link rel="stylesheet" href="style.css">
+    <script src="index.js"></script>
 </head>
 
 <body class="body">
+
 <header class="header"></header>
-<form class="form">
+<form action="my-handling-form-page" method="post" class="form">
     <div class="form__elements">
 
         <label class="form__label">
@@ -19,6 +21,8 @@
             Выберите время и дату:
             <div><input class="form__label-calendar" type="date" onchange="alert(this.value)"></div>
         </label>
-        <input type="submit" value="Отправить">
+        <li class="button">
+        <button type="submit">Отправить</button>
+        </li>
 </form>
 </body>
