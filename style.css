@@ -1,4 +1,9 @@
-.body{
+.form{
 display: flex;
 justify-content: center;
+}
+
+.header{
+    height: 70px;
+    width: 100%;
 }

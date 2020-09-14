@@ -7,19 +7,18 @@
 </head>
 
 <body class="body">
-<div class="header"></div>
+<header class="header"></header>
 <form class="form">
     <div class="form__elements">
-        <label class="form__label">
-            Как к вам обращаться
-            <div><input class="text"></div>
-        </label>
+
         <label class="form__label">
             Ваши симптомы
-            <div><input class="text"></div>
+            <div><input class="form__label-symptoms"></div>
         </label>
         <label class="form__label">
             Выберите время и дату:
-            <div><input class="number-vysota" type="text"   onchange="alert(this.value)"></div>
+            <div><input class="form__label-calendar" type="date" onchange="alert(this.value)"></div>
         </label>
+        <input type="submit" value="Отправить">
+</form>
 </body>
