@@ -1,5 +1,5 @@
 
-function setDate() {
+
     var date = new Date();
     var day = date.getDate();
     var month = date.getMonth() + 1;
@@ -14,7 +14,7 @@ function setDate() {
 
     const today = year + "-" + month + "-" + day;
     document.getElementById('theDate').value = today;
-}
+
 
 function getFrom(document,element1,element2) {
     let form = document.forms.form; // <form name="my"> element
