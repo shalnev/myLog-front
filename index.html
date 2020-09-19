@@ -10,19 +10,9 @@
 <body class="body">
 
 <header class="header"></header>
-<form action="my-handling-form-page" method="post" class="form">
-    <div class="form__elements">
-
-        <label class="form__label">
-            Ваши симптомы
-            <div><input class="form__label-symptoms"></div>
-        </label>
-        <label class="form__label">
-            Выберите время и дату:
-            <div><input class="form__label-calendar" type="date" onchange="alert(this.value)"></div>
-        </label>
-        <li class="button">
-        <button type="submit">Отправить</button>
-        </li>
+<form class="form">
+    <div class="form__div" ><input class="form__label-calendar" type="date" id="theDate" onchange="alert(this.value)"></div>
+    <div class="form__div" ><input class="form__label-symptoms"></div>
+    <div class="form__div" > <button class="button" type="submit">Add</button></div>
 </form>
 </body>
