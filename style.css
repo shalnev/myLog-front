@@ -1,0 +1,20 @@
+.form{
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header{
+    height: 70px;
+    width: 100%;
+}
+.body{
+    background-color: #f69a73;
+}
+
+.form__label-symptoms{
+    height: 18px;
+}
+.button{
+    height: 24px;
+}
