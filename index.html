@@ -4,15 +4,20 @@
     <meta charset="utf-8">
     <title>Форма</title>
      <link rel="stylesheet" href="style.css">
+    <script>
+        window.onload = function SetDate() {
+            alert('Страница загружена');
+        };
+    </script>
     <script src="index.js"></script>
 </head>
 
 <body class="body">
 
 <header class="header"></header>
-<form class="form">
-    <div class="form__div" ><input class="form__label-calendar" type="date" id="theDate" onchange="alert(this.value)"></div>
-    <div class="form__div" ><input class="form__label-symptoms"></div>
+<form class="form" name="form">
+    <div class="form__div" ><input class="form__label-calendar" type="date" id="theDate" name="calendar" onchange="alert(this.value)"></div>
+    <div class="form__div" ><input class="form__label-symptoms" name="text" value="text"></div>
     <div class="form__div" > <button class="button" type="submit">Add</button></div>
 </form>
 </body>
